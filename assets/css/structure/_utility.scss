@@ -1,0 +1,25 @@
+a {
+    color: #106eea;
+    text-decoration: none !important;
+  }
+  
+  a:hover {
+    color: #3b8af2;
+    text-decoration: none;
+  }
+  .bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+.img-fluid-50{
+  max-width: 50%;
+  height: auto;
+}
+.img-fluid-25{
+  max-width: 25%;
+  height: auto;
+}
+.bg-secondary-light {
+  --bs-bg-opacity: 1;
+  background-color: #f6f9fc !important;
+}
